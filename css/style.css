@@ -1,0 +1,854 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 25px;
+    font-family: ;
+}
+
+.header_top {
+    height: 600px;
+    display: block;
+    background: url("../imges/cc-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header_top>.nav_top {
+    display: block;
+    width: 100%;
+    z-index: 1;
+    background-color: #30475e;
+}
+
+
+/* Start Drop Content Response ------------------------------------------------*/
+
+.dropbtn {
+    border-radius: 5px;
+    display: none;
+    margin: 10px;
+    background-color: #1e5f74;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+}
+
+.dropbtn>i {
+    transition: all 5s ease;
+}
+
+.dropbtn>i:hover {
+    transform: rotate(90deg);
+}
+
+.dropdown {
+    display: none;
+    margin: 0px 55px;
+    position: relative;
+    float: right;
+    z-index: 2;
+}
+
+.dropdown-content {
+    margin: 65px -110px;
+    float: right;
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.dropdown-content ul {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.dropdown-content a {
+    background-color: ;
+    color: #1e5f74;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #1e5f74;
+}
+
+
+/* End Drop Content Response ------------------------------------------------*/
+
+.header_top .nav_top .nav_title a {
+    text-transform: uppercase;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 30px;
+    font-weight: lighter;
+}
+
+.header_top .nav_top .nav_btn ul li {
+    list-style: none;
+    float: right;
+    margin: 20px 10px
+}
+
+.header_top .nav_top .nav_btn ul li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.header_top .nav_top .nav_btn ul li a:hover {
+    background-color: #1e5f74;
+    opacity: 0.7;
+    color: #fcdab7;
+    border-radius: 5px;
+}
+
+.header_top .me_section {
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.header_top .me_section img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin: auto;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.header_top .me_section img:hover {
+    transform: scale(1.2, 1.2)
+}
+
+.header_top .me_section .exp-me {
+    margin-top: 5%;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    word-spacing: 3px;
+}
+
+.header_top .me_section .exp-me h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.header_top .me_section .exp-me span {
+    display: block;
+    font-size: 95%;
+    margin-top: 10px;
+}
+
+.header_top .me_section .exp-me button {
+    background-color: #1e5f74;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.header_top .me_section .exp-me button:hover {
+    background-color: #1d2d50;
+}
+
+
+/*--------------------------- E ND HEADER-----------------------------------*/
+
+
+/*---------------------------START SECTION ---------------------------------*/
+
+.btn_sochil {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.btn_sochil a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #fcdab7;
+    padding: 20px;
+    border-radius: 50%;
+    color: #1e5f74;
+    margin: 0 10px;
+    transition: all .5s ease-in-out;
+}
+
+.btn_sochil a:hover {
+    background-color: #1e5f74;
+    color: #fff;
+}
+
+
+/*---------------------------END SECTION ---------------------------------*/
+
+
+/*---------------------------Start Main ---------------------------------*/
+
+main .section_about_basics {
+    display: inline-block;
+    background-color: #fff;
+    padding: 60px 70px;
+    width: 100%;
+}
+
+main .section_about_basics>div {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+main .section_about_basics>div>div {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 4%;
+}
+
+main .section_about_basics div h3 {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+main .section_about_basics div p {
+    color: #2c2c2c;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    display: block;
+    line-height: 110%;
+    margin-bottom: 10px;
+}
+
+main .section_about_basics div p a {
+    color: #1e5f74;
+}
+
+main .section_about_basics div>div {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+main .section_about_basics div>span {
+    overflow: hidden;
+    font-size: 90%;
+    display: block;
+    font-weight: bold;
+    margin-top: 6%;
+    text-transform: uppercase;
+}
+
+main .section_about_basics div div .basic_info {
+    overflow: hidden;
+    display: block;
+    margin-top: 6%;
+    font-weight: normal;
+    text-transform: none;
+    text-align: left;
+}
+
+
+/*  -------------------------------------------------Start This Skill Professional ---------*/
+
+main>.section_professional>h3 {
+    text-align: center;
+    display: block;
+    margin: 40px 0;
+    font-size: 25px;
+}
+
+main>.section_professional>.skill_professional {
+    overflow: hidden;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    margin: 40px 60px;
+    display: block;
+    padding: 40px
+}
+
+main>.section_professional>.skill_professional>div {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+main>.section_professional>.skill_professional .skill_grp1>div span,
+main>.section_professional>.skill_professional .skill_grp2>div span {
+    float: right;
+    display: block;
+    margin-right: 5%;
+}
+
+main>.section_professional>.skill_professional .skill_grp1>div>div,
+main>.section_professional>.skill_professional .skill_grp2>div>div {
+    width: 96%;
+    height: 5px;
+    margin: 5px;
+    display: block;
+    background-color: #ffbb91;
+    margin: 15px 0;
+}
+
+
+/*  -------------------------------------------------End This Skill Professional ---------*/
+
+
+/*  -------------------------------------------------Start This Protfilo ---------*/
+
+.professional_html,
+.professional_css,
+.professional_js,
+.professional_photoshop,
+.professional_illustrator,
+.professional_SoftWear,
+.professional_HardWear,
+.professional_network {
+    display: block;
+    height: 100%;
+    background-color: #64958f;
+}
+
+.professional_html {
+    width: 90%;
+}
+
+.professional_css {
+    width: 70%;
+}
+
+.professional_js {
+    width: 5%;
+}
+
+.professional_photoshop {
+    width: 80%;
+}
+
+.professional_illustrator {
+    width: 75%;
+}
+
+.professional_SoftWear {
+    width: 97%;
+}
+
+.professional_HardWear {
+    width: 50%;
+}
+
+.professional_network {
+    width: 70%;
+}
+
+main .article_portflio {
+    margin: 0 60px;
+    overflow: hidden;
+}
+
+main .article_portflio {
+    height: 20%;
+    overflow: hidden;
+}
+
+main .article_portflio>H3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+main .article_portflio>div {
+    display: block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+main .article_portflio>div figure {
+    display: block;
+    margin: 10px;
+    backface-visibility: hidden;
+}
+
+main .article_portflio>div figure img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+main .article_portflio>div>figure>figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
+    padding: 10px;
+}
+
+main .article_portflio>div>figure>figcaption:hover {
+    transform: scale(0.2, 0.2);
+    font-size: 100%;
+}
+
+main .article_portflio>div>figure>figcaption>div {
+    margin: 10px;
+    display: block;
+    height: 94%;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 150%;
+    padding: 25% 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*  -------------------------------------------------End This Protfilo ---------*/
+
+
+/*  -------------------------------------------------Start This Cards Work_exp ---------*/
+
+main .article_work_exp {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 2% 0;
+}
+
+main .article_work_exp h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0 20px;
+}
+
+main .article_work_exp>section {
+    margin: 1% 5%;
+    transition: all 5s ease-in-out;
+}
+
+main .article_work_exp>section:hover {
+    transform: scale(1.02, 1.02);
+}
+
+main .article_work_exp>section .date {
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    display: block;
+    width: 20%;
+    float: left;
+    background-color: #1e5f74;
+    color: #fff;
+    min-height: 190px;
+    margin-top: 20px;
+    padding: 80px 0;
+    text-align: center;
+    height: 238px;
+}
+
+main .article_work_exp>section .date>p {
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+main .article_work_exp>section .info {
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 80%;
+    padding: 20px;
+    display: inline-block;
+    background-color: #fff;
+    overflow: hidden;
+    height: 238px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+main .article_work_exp>section .info h4 {
+    padding-bottom: 10px;
+    color: #2c2c2c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main .article_work_exp>section .info p {
+    font-size: 17px;
+    color: #2c2c2c;
+}
+
+
+/*  -------------------------------------------------End This Cards Work_exp ---------*/
+
+
+/*  -------------------------------------------------Start This Cards Education ---------*/
+
+main .section_education {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+    ;
+}
+
+main .section_education h3 {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1;
+    padding-top: 100px;
+}
+
+main .section_education article {
+    color: #fff;
+    margin: 3% 5%;
+}
+
+main .section_education article .year_card {
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    display: block;
+    width: 20%;
+    float: left;
+    background-color: #1e5f74;
+    color: #fff;
+    min-height: 190px;
+    margin-top: 20px;
+    padding: 80px 0;
+    text-align: center;
+    height: 238px;
+}
+
+main .section_education article .year_card p {
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+main .section_education article .school_card {
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 80%;
+    float: left;
+    background-color: #fff;
+    overflow: hidden;
+    height: 238px;
+    padding: 20px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+main .section_education article .school_card h4 {
+    padding: 10px 0 5px;
+    color: #2c2c2c;
+    word-spacing: 1px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+main .section_education article .school_card span {
+    display: block;
+    font-weight: bolder;
+    padding: 5px 0 10px;
+    color: #9A9A9A;
+}
+
+main .section_education article .school_card p {
+    line-height: 25px;
+    color: #000;
+}
+
+
+/*  -------------------------------------------------End This Cards Education ---------*/
+
+main .section_contact {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 80px;
+    height: auto;
+    background-image: url(../imges/staticmap.png)
+}
+
+main .section_contact article {
+    width: 90%;
+    background-color: #fff;
+    display: inline-block;
+    margin: 5% 5%;
+    height: auto;
+}
+
+main .section_contact article h2 {
+    display: block;
+    padding: 40px 0 40px;
+    ;
+    text-align: center;
+}
+
+main .section_contact article>div {
+    margin: auto;
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+main .section_contact article>div span {
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 20px
+}
+
+main .section_contact article>div form>div {
+    margin: 20px 10px;
+    border: solid 1px #9A9A9A;
+    border-radius: 20px;
+    width: 80%;
+}
+
+main .section_contact article>div form>div:focus {
+    border: solid 1px #1e5f74;
+    border-radius: 20px;
+}
+
+main .section_contact article>div form>div i {
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+main .section_contact article>div form>div input {
+    transition: all 1s ease-in;
+    border: solid 0px;
+    padding: 3% 0;
+    font-size: 12px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+main .section_contact article>div form>div input:focus {
+    color: #1e5f74;
+}
+
+main .section_contact article>div form>textarea {
+    border: solid #9A9A9A 0px;
+    width: 90%;
+    margin: 20px 20px;
+    height: 100px;
+    resize: none;
+    float: right;
+    transition: all 1s ease-in;
+    border-right: solid #9A9A9A 1px;
+    border-bottom: solid #9A9A9A 1px;
+    padding: 5px;
+}
+
+main .section_contact article>div form>textarea:focus {
+    border-bottom: solid #1e5f74 1px;
+    border-right: solid #1e5f74 1px;
+    transform: scale3d(1, 1, 2);
+    color: #1e5f74;
+}
+
+main .section_contact article>div form>input[type="submit"] {
+    cursor: pointer;
+    background-color: #1e5f74;
+    color: #fff;
+    border: solid 0px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+main .section_contact article>div form>input[type="submit"]:hover {
+    background-color: #1e5f74;
+}
+
+
+/******************/
+
+main .section_contact article>.address {
+    padding: 0 20px 10px;
+}
+
+main .section_contact article>.address span h5 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main .section_contact article>.address span p {
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+
+/*---------------------------End Main ---------------------------------*/
+
+
+/*------------------Start Footer-----------------------*/
+
+footer {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 2%;
+}
+
+footer div {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+footer div a {
+    text-align: center;
+    display: inline-block;
+    color: #ddd;
+    margin: 10px;
+    transition: all .5s ease-in;
+}
+
+footer div a:hover {
+    color: #1e5f74;
+}
+
+footer .emad {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #1e5f74;
+    margin: 30px 0;
+}
+
+footer .emad span {
+    color: #000;
+}
+
+@media (min-width: 0px)and (max-width: 720px) {
+    .header_top .nav_top {
+        display: none;
+    }
+    .dropbtn {
+        display: block;
+    }
+    .dropdown {
+        display: block;
+    }
+    main .section_about_basics>div>div {
+        box-sizing: none;
+        ;
+        display: block;
+        width: 100%;
+    }
+    main .section_about_basics {
+        margin-top: 15%;
+        display: block;
+        background-color: #fff;
+        padding: 2% 5%;
+    }
+    main>.section_professional {
+        padding: 2% 5%;
+    }
+    main>.section_professional>.skill_professional {
+        margin: 0;
+        padding: 40px;
+    }
+    main>.section_professional>.skill_professional>div {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    main .article_portflio {
+        margin: 2% 5%;
+    }
+    main .article_portflio>div {
+        width: 100%;
+        float: none;
+    }
+    main .article_work_exp>section .date {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        min-height: 0;
+        padding: 5%;
+        height: 100px;
+    }
+    main .article_work_exp>section .info {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        min-height: 0;
+        padding: 2% 5%;
+        height: auto;
+    }
+    main .section_education article .year_card {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        min-height: 0;
+        padding: 5%;
+        height: 100px;
+    }
+    main .section_education article .school_card {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        min-height: 0;
+        padding: 2% 5%;
+        height: auto;
+    }
+    main .section_contact {
+        width: 100%;
+        padding: 2% 5%;
+    }
+    main .section_contact article {
+        width: 100%;
+        margin: 0;
+    }
+    main .section_contact article>div {
+        padding: auto;
+        display: block;
+        width: 100%;
+        float: auto;
+    }
+}
